@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: "Rubik";
+    src: url(./Rubik/Rubik-VariableFont_wght.ttf) format(truetype);
+}
+.box{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 180px;
+}
+.box-left{
+    width: 410px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.box-left_h1{
+    font-family: "Rubik";
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+    color: #363940;
+    margin-bottom: 20px;
+}
+.box-left_p{
+    font-family: "Rubik";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #95A1BB;
+    margin-bottom: 50px;
+}
+.box-form{
+    width: 380px;
+    height: 188px;
+    display: flex;
+    flex-direction: column;
+}
+.box-form input{
+    width: 100%;
+    height: 46px;
+    font-family: "Rubik";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #95A1BB;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 12px 15px;
+}
+.box-form button{
+    width: 100%;
+    height: 46px;
+    font-family: "Rubik";
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: rgb(83, 39, 195);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.box-right{
+    width: 610px;
+    height: 365px;
+
+}
+.box-right video{
+    width: 100%;
+    height: 100%;
+}
